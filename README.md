@@ -45,12 +45,14 @@ And this is using `webpack --mode production`. This is definitely a bug.
 
 ## webpack not handling a require statement
 
-I'm honestly not sure what's up here, but if you open up the `index.html` in
-`1.6.0` and open the console there's nothing in there and the code in
-`graphql-request` runs fine.
+I'm honestly not sure what's up here, but if you
+[open up the `index.html` in `1.6.0`](https://rawgit.com/kentcdodds/graphql-request-1.7.0-bug/master/1.6.0/index.html)
+and open the console there's nothing in there and the code in `graphql-request`
+runs fine.
 
-If you open up the `index.html` in `1.7.0` there's the following error in the
-console:
+If you
+[open up the `index.html` in `1.7.0`](https://rawgit.com/kentcdodds/graphql-request-1.7.0-bug/master/1.7.0/index.html)
+there's the following error in the console:
 
 ```
 main.js:1 Uncaught ReferenceError: require is not defined
