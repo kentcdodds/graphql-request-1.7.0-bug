@@ -1,0 +1,19 @@
+{
+  "name": "graphql-request-1.7.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "webpack-cli": "^3.1.0",
+    "webpack": "^4.16.2"
+  },
+  "dependencies": {
+    "graphql-request": "1.7.0"
+  },
+  "scripts": {
+    "build": "webpack --production"
+  },
+  "keywords": [],
+  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "license": "MIT"
+}
