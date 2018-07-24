@@ -43,6 +43,11 @@ Entrypoint main = main.js
 Notice the difference in the `main.js` filesize: 12.6 KiB before, 156 KiB after.
 And this is using `webpack --mode production`. This is definitely a bug.
 
+You can also checkout the built files:
+
+- [1.6.0](https://github.com/kentcdodds/graphql-request-1.7.0-bug/blob/master/1.6.0/dist/main.js)
+- [1.7.0](https://github.com/kentcdodds/graphql-request-1.7.0-bug/blob/master/1.7.0/dist/main.js)
+
 ## webpack not handling a require statement
 
 I'm honestly not sure what's up here, but if you
