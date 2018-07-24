@@ -82,7 +82,7 @@ require('./../../process/browser.js')
 I think it's in the `graphql/jsutils/instanceOf.mjs` file where it's using
 `process`. I'm not sure why that's causing issues here...
 
-\*\*That said, if the first bug is fixed (remove the dependency on `graphql`),
-then this bug will also be fixed.
+**That said, if the first bug is fixed (remove the dependency on `graphql`),
+then this bug will also be fixed.**
 
 Thanks!
