@@ -8,7 +8,7 @@
     "webpack": "^4.16.2"
   },
   "dependencies": {
-    "graphql-request": "1.7.0"
+    "graphql-request": "1.8.0"
   },
   "scripts": {
     "build": "webpack --mode=production"
